@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ej4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <style>
+        .borde {
+            border: 5px solid white;
+        }
+
+        @media (max-width:12000px) {
+            .color {
+                background-color: yellow;
+            }
+
+            .rojo {
+                background-color: red;
+                width: 100%;
+                height: 100%;
+
+            }
+
+            .texto {
+                text-align: center;
+                text-decoration: black;
+                font-weight: 500;
+                font-size: 20vh;
+
+            }
+
+            .footer {
+                text-align: end;
+
+            }
+
+            .inicio {
+                background-color: lawngreen;
+            }
+        }
+
+        @media (max-width: 770px) {
+            .verde {
+                background-color: lawngreen;
+            }
+
+            .final {
+                text-align: center;
+            }
+
+            .header {
+                background-color: aqua;
+            }
+        }
+
+        @media (max-width:570px){
+            .rosa{
+                background-color: lightcoral;
+                text-align: center;
+            }
+           
+            .azul{
+                background-color: aqua;
+            }
+
+            .tres{
+                background-color: red;
+                text-align: end;
+            }
+
+            .uno{
+                text-align: start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 p-2 inicio header rosa borde ">Header</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12 borde p-4 texto rojo  uno borde">1</div>
+            <div class="col-md-4 col-sm-6 col-12 borde p-4 texto rojo  azul borde">2</div>
+            <div class="col-md-4 col-sm-12 col-12 borde p-4 texto rojo tres verde borde">3</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-12 color p-2 footer final borde ">Footer 1</div>
+            <div class="col-md-6 col-sm-12 final color p-2 borde">Footer 2</div>
+        </div>
+    </div>
+</body>
+
+</html>
