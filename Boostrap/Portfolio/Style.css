@@ -1,0 +1,103 @@
+.borde {
+    border: 1px solid white ;
+}
+
+/* Inicio */
+#inicio {
+
+    margin: 2px;
+}
+
+.image-container {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .image-container img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%;
+  }
+  
+
+  /* Sobre mi */
+
+  #sobre-mi {
+    margin: 2px;
+  }
+
+  #sobre-mi h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* Habilidades */
+
+  .card {
+   display: flex;
+   align-items: center;
+   width: 300px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+   margin: 20px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+ }
+ 
+ .card-image {
+   width: 15px; 
+   height: 1px;
+ }
+
+ .card-content {
+   padding: 20px;
+ }
+ 
+ .card-content h2 {
+   margin-top: 0;
+ }
+
+
+  /* Proyectos */
+ #proyectos {
+
+    margin: 2px;
+ }
+
+ #proyectos h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+
+ #proyectos img {
+    margin-bottom:5px;
+    width: 20%;
+    height: 20%;
+ }
+
+ /* Contacto */
+
+ footer {
+    
+    margin: 2px;
+ }
+
+ footer h3 {
+    text-align: center;
+    font-weight: bold;
+ }
+
+ footer img {
+    align-items: center;
+    justify-content: center;
+ }
+
+ footer p {
+    font-weight: 300;
+ }
